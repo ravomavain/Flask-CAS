@@ -16,7 +16,6 @@ if __name__ == "__main__":
         ],
         install_requires = [
             "Flask",
-            "Nose",
         ],
         include_package_data=True,
         classifiers=[
