@@ -7,7 +7,7 @@ import setuptools
 if __name__ == "__main__":
     setuptools.setup(
         name="Flask-CAS",
-        version="0.1.0",
+        version="0.2.0",
         description="Flask extension for CAS",
         author="Cameron Brandon White",
         author_email="cameronbwhite90@gmail.com",
@@ -27,4 +27,5 @@ if __name__ == "__main__":
             'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
             'Topic :: Software Development :: Libraries :: Python Modules'
         ],
+        use_2to3=True,
     )
